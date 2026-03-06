@@ -3,7 +3,7 @@ import tkinter as tk
 # Create window
 window = tk.Tk()
 window.title("My First Frontend App")
-window.geometry("400x200")
+window.geometry("40x20")
 
 # Function
 def show_message():
@@ -11,7 +11,7 @@ def show_message():
 
 # Label
 label = tk.Label(window, text="Click the button", font=("Arial", 14))
-label.pack(pady=20)
+label.pack(pady=200)
 
 # Button
 button = tk.Button(window, text="Click Me", command=show_message)
