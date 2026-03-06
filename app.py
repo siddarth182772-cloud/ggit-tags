@@ -11,7 +11,7 @@ def show_message():
 
 # Label
 label = tk.Label(window, text="Click the button", font=("Arial", 14))
-label.pack(pady=20)
+label.pack(pady=200)
 
 # Button
 button = tk.Button(window, text="Click Me", command=show_message)
