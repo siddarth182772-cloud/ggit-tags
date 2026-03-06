@@ -3,7 +3,7 @@ import tkinter as tk
 # Create window
 window = tk.Tk()
 window.title("My First Frontend App")
-window.geometry("400x200")
+window.geometry("40x20")
 
 # Function
 def show_message():
